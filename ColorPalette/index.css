@@ -1,0 +1,40 @@
+body{
+    height:100vh;
+    background-color:#000000;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    border:none;
+    outline: none;
+    border-radius:14px;
+    height:30px;
+    width: 120px;
+    /* background-color: #806b4c; */
+}
+div.container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    gap:12px;
+    margin-top:20px;
+}
+div.one,div.three,div.two,div.four,div.five{
+    display: inline-block;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius:10px;
+    width:20%;
+    height:200px;
+}
+div.Hexa{
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:30px;
+}
